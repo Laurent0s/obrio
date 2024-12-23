@@ -1,0 +1,11 @@
+.root-layout {
+  &__main {
+    margin: 0 auto;
+    max-width: 360px;
+  }
+
+  &__navigation {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+}

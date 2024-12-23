@@ -1,0 +1,19 @@
+.about-page {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.5rem;
+
+  &__title {
+    margin-bottom: 1.5rem;
+  }
+
+  &__description {
+    margin-bottom: 3rem;
+  }
+
+  &__action-button {
+    padding: 1rem;
+    color: #6a3aa2;
+  }
+}

@@ -1,0 +1,10 @@
+$base-size: 1.75rem;
+$step: 0.25rem;
+
+.title {
+  @for $i from 1 through 5 {
+    &--#{$i} {
+      font-size: $base-size - ($i - 1) * $step;
+    }
+  }
+}
